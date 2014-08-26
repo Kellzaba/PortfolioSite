@@ -1,0 +1,446 @@
+/***********************************
+SASS Variables
+***********************************/
+/***********************************
+Body
+***********************************/
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #a8d4f6; }
+
+/***********************************
+Entire Site Bounding Container
+***********************************/
+.bounding-box {
+  max-width: 100rem;
+  margin: 0 auto; }
+
+/***********************************
+Glyphicon Sizing & Color
+***********************************/
+.glyphicon {
+  font-size: 1.2rem;
+  color: #026b9f; }
+
+.foot-icon {
+  color: white; }
+
+.work-link {
+  color: #026b9f; }
+
+.pdf-icon {
+  color: #a8d4f6; }
+
+/***********************************
+icomoon Sizing & Color
+***********************************/
+.icomoon {
+  font-size: 1.2rem;
+  color: #026b9f; }
+
+.tools {
+  font-size: 2.5rem;
+  color: #02354e;
+  margin-right: .5rem; }
+
+.res-head {
+  color: #02354e;
+  margin-right: 1rem; }
+
+.res-body {
+  color: #dd2f00;
+  margin-right: 1rem; }
+
+.res-body-work {
+  color: #02354e; }
+
+/***********************************
+Link Styles
+***********************************/
+a {
+  color: #026b9f;
+  font-family: "Roboto Medium", Arial, sans-serif; }
+
+.footer div div div a {
+  color: white; }
+
+.link-box div a {
+  color: #02354e;
+  font-size: 1.5rem; }
+
+/***********************************
+Image Styles
+***********************************/
+.multi-logo {
+  padding-right: 3rem; }
+
+.my-photo {
+  float: right;
+  align: bottom; }
+
+/***********************************
+Paragraph & Header Styles
+***********************************/
+p {
+  font-family: "Roboto Regular", Arial, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.3125; }
+
+h1 {
+  font-family: "Roboto Regular", Arial, sans-serif;
+  font-size: 4rem; }
+  @media screen and (min-width: 768px) {
+    h1 {
+      font-size: 5rem; } }
+
+h2 {
+  font-family: "Overlock-Bold", Arial, sans-serif;
+  font-size: 3rem;
+  color: darkorange; }
+  @media screen and (min-width: 768px) {
+    h2 {
+      font-size: 3.7rem; } }
+
+h3 {
+  font-family: "Overlock-Bold", Arial, sans-serif;
+  font-size: 2.5rem;
+  color: #dd2f00; }
+  @media screen and (min-width: 768px) {
+    h3 {
+      font-size: 3rem; } }
+
+h4 {
+  font-family: "Overlock-Bold", Arial, sans-serif;
+  font-size: 2.2rem;
+  color: #dd2f00; }
+  @media screen and (min-width: 768px) {
+    h4 {
+      font-size: 2.4rem; } }
+
+h5 {
+  font-family: "Overlock-Bold", Arial, sans-serif;
+  font-size: 2rem;
+  color: #a8d4f6; }
+  @media screen and (min-width: 768px) {
+    h5 {
+      font-size: 2.2rem; } }
+
+.me {
+  font-family: "Roboto Medium", Arial, sans-serif;
+  font-size: 1.8rem;
+  color: white; }
+
+.me-again {
+  font-family: "Yellowtail", Arial, sans-serif;
+  font-size: 5rem; }
+  @media screen and (min-width: 768px) {
+    .me-again {
+      font-size: 6rem; } }
+
+/***********************************
+Nav Bar
+***********************************/
+.header-nav {
+  padding-top: 2.625rem;
+  padding-right: 0rem;
+  font-family: "Roboto Medium", Arial, sans-serif;
+  font-size: 1.8rem; }
+
+.nav-bg {
+  background-color: #02354e;
+  padding: 0rem; }
+
+/***********************************
+Navitagion
+***********************************/
+.navbar {
+  margin-top: 0rem;
+  margin-bottom: -1px;
+  margin-right: 0rem;
+  margin-left: 0rem;
+  padding: 0rem; }
+
+.navbar-nav > li > a {
+  border: 0rem;
+  color: #a8d4f6; }
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+  background-color: darkorange;
+  color: #02354e; }
+
+.navbar-nav > li.active > a,
+.navbar-nav > li.active > a:hover,
+.navbar-nav > li.active > a:focus {
+  border: 0rem;
+  background-color: #026b9f;
+  color: white;
+  cursor: default; }
+
+.navbar-nav > li.project-active > a {
+  border: 0rem;
+  background-color: #026b9f;
+  color: white;
+  cursor: pointer; }
+
+.navbar-nav > li.project-active > a:hover,
+.navbar-nav > li.project-active > a:focus {
+  border: 0rem;
+  background-color: darkorange;
+  color: white;
+  cursor: pointer; }
+
+/* Part that says: Kelly Pavao | Designer */
+.navbar-brand {
+  color: #a8d4f6;
+  padding-top: 1.25rem;
+  padding-bottom: 0rem;
+  padding-left: 0rem;
+  padding-right: 0rem; }
+
+/***********************************
+Hamburger
+***********************************/
+button.navbar-toggle {
+  background-color: #026b9f; }
+
+.icon-bar {
+  background-color: #a8d4f6; }
+
+/***********************************
+Header
+***********************************/
+.header-bg {
+  background-color: #026b9f;
+  padding: 0rem; }
+
+.header {
+  background-color: #026b9f;
+  color: white; }
+
+.header-body {
+  font-family: "Roboto Light", Arial, sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.3125;
+  padding-bottom: 2.625rem;
+  margin-bottom: 1.96875rem; }
+
+.header-body-resume {
+  font-family: "Roboto Light", Arial, sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.3125; }
+
+.header-project {
+  padding-bottom: 0rem; }
+
+.txt-hlgt {
+  font-family: "Roboto Medium", Arial, sans-serif; }
+
+/***********************************
+Main Content
+***********************************/
+.content-main {
+  margin-top: 1.96875rem;
+  margin-bottom: 7.875rem; }
+
+.main-dc {
+  background-image: url("../images/CityElements-sm.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding: 0rem; }
+  @media screen and (min-width: 768px) {
+    .main-dc {
+      background-image: url("../images/CityElements.svg"); } }
+
+/***********************************
+Callouts
+***********************************/
+.callout-body {
+  margin-bottom: 2.625rem; }
+
+/***********************************
+Works
+***********************************/
+.work-col {
+  padding-left: 0rem;
+  padding-right: 0rem;
+  margin-bottom: 1.3125rem;
+  position: relative; }
+  @media screen and (min-width: 768px) {
+    .work-col {
+      padding-right: 1.5rem; } }
+
+.scale-image {
+  display: block;
+  width: auto;
+  max-width: 100%; }
+
+/***********************************
+Works Logo Hover Overlay
+***********************************/
+a .work-overlay {
+  opacity: 0; }
+
+a:hover .work-overlay {
+  opacity: 1; }
+
+.work-img-overlay {
+  position: relative; }
+
+a .work-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 30rem;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(250, 250, 250, 0.75);
+  /*Dark Blue*/
+  transition: opacity 0.5s; }
+
+/***********************************
+Projects
+***********************************/
+.link-box {
+  margin-bottom: 2.625rem; }
+
+.work-link-next {
+  text-align: right; }
+
+.project-top-heading {
+  margin-top: 1rem; }
+
+/***********************************
+Carousel
+***********************************/
+.carousel {
+  background-image: url("../images/carousel-images/wood-sm.jpg"); }
+  @media screen and (min-width: 768px) {
+    .carousel {
+      background-image: url("../images/carousel-images/wood.jpg"); } }
+
+/***********************************
+Accordian
+***********************************/
+.question {
+  margin: 0rem;
+  font-family: "Roboto Medium", Arial, sans-serif;
+  color: black;
+  display: inline-block;
+  margin-right: 2.5rem; }
+
+.answer-pre {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  font-family: "Roboto Light", Arial, sans-serif; }
+
+.answer {
+  margin: 0rem;
+  font-family: "Roboto Light", Arial, sans-serif; }
+
+.panel {
+  webkit-box-shadow: none;
+  box-shadow: none; }
+
+.panel-default > a {
+  text-decoration: none; }
+
+.question-link:hover {
+  color: white; }
+
+.panel-default {
+  border: 0px; }
+
+.panel-heading {
+  padding-top: 0.65625rem;
+  padding-bottom: 0.65625rem;
+  padding-left: 0.98438rem;
+  padding-right: 0.98438rem;
+  background-color: #67abdb;
+  background-image: url("../images/arrow.png");
+  background-repeat: no-repeat;
+  background-position: right; }
+
+.panel-body {
+  padding-top: 0.98438rem;
+  padding-bottom: 0.65625rem;
+  padding-left: 0.98438rem;
+  padding-right: 0.98438rem;
+  background-color: #a8d4f6;
+  border-left: 1px solid #67abdb;
+  border-right: 1px solid #67abdb;
+  border-bottom: 1px solid #67abdb; }
+
+/***********************************
+Resume
+***********************************/
+.resume-pdf-link {
+  float: right;
+  background-color: #02354e;
+  padding-top: 0.65625rem;
+  padding-bottom: 0.65625rem;
+  padding-left: 0.98438rem;
+  padding-right: 0.98438rem;
+  border-radius: .4rem; }
+  @media screen and (min-width: 768px) {
+    .resume-pdf-link {
+      margin-top: 3.9375rem; } }
+
+.pdf-text {
+  color: #a8d4f6;
+  font-family: "Roboto Medium", Arial, sans-serif; }
+
+.row-res-head {
+  margin-top: 2.625rem;
+  margin-bottom: -2.625rem; }
+
+.com-info {
+  display: inline-block;
+  margin-right: 7.875rem; }
+
+.col-res {
+  margin-bottom: 2.625rem; }
+
+.p-res-tools {
+  margin-bottom: 0rem; }
+
+.inner-col {
+  padding-left: 0rem; }
+
+.resume-spacing {
+  margin-bottom: 3.9375rem; }
+
+.job-list {
+  list-style-image: url("../images/banner.png");
+  padding-left: 2rem;
+  font-family: "Roboto Regular", Arial, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.3125; }
+
+.extra-space {
+  padding-bottom: 5.25rem; }
+
+/***********************************
+Footer
+***********************************/
+.footer-bg {
+  background-color: #02354e;
+  padding: 0rem; }
+
+.footer {
+  margin-top: 0.32813rem;
+  padding-bottom: 1.96875rem;
+  color: white; }
+
+.cnt-row {
+  margin-bottom: 0.65625rem; }
+
+.contact {
+  color: darkorange; }
+
+.copyright {
+  font-family: "Roboto Regular", Arial, sans-serif;
+  font-size: 1.1rem;
+  margin-top: 1.96875rem; }

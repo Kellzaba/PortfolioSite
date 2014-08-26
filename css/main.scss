@@ -1,0 +1,620 @@
+/***********************************
+SASS Variables
+***********************************/
+// Fonts
+$yellowtail: 'Yellowtail', Arial, sans-serif;
+$overlock: 'Overlock-Bold', Arial, sans-serif;
+$roboto-lt: 'Roboto Light', Arial, sans-serif;
+$roboto-reg: 'Roboto Regular', Arial, sans-serif;
+$roboto-med: 'Roboto Medium', Arial, sans-serif;
+
+// Colors
+$main-lt: #A8D4F6;
+$main-ltplus: #67ABDB; //main-lt with a 25% overlay of main-md
+$main-md: #026B9F;
+$main-dk: #02354E;
+// $accent-md: #F76F20;
+$accent-md: #FF8C00; //Lighter Orange
+$accent-dk: #DD2F00;
+$text-lt: #ffffff;
+$text-dk: #000000;
+
+// Ratio
+$ratio: 21/16; 
+
+// Media Queries
+$small-plus: "screen and (min-width: 550px)";
+$tablet-plus: "screen and (min-width: 768px)";
+$laptop-plus: "screen and (min-width: 992px)";
+$bigscreen-only: "screen and (min-width: 1200px)";
+
+/***********************************
+Body
+***********************************/
+html {
+	// Makes the base font size 10px; easy to calculate ems! Yay! 1rem=10px, 2.4rem=24px
+	font-size: 62.5%;
+}
+body {
+	background-color: $main-lt;
+}
+
+/***********************************
+Entire Site Bounding Container
+***********************************/
+.bounding-box {
+	max-width: 100rem;
+	margin: 0 auto;
+}
+
+
+/***********************************
+Glyphicon Sizing & Color
+***********************************/
+// General
+.glyphicon {
+	font-size: 1.2rem;
+	color: $main-md;
+}
+
+// Specific to usage in footer
+.foot-icon {
+	color: $text-lt;
+}
+
+// Specific to usage in Prev/Next on Project pages
+.work-link {
+	color: $main-md;
+}
+
+// Specific to usage on Resume PDF
+.pdf-icon {
+	color: $main-lt;
+}
+
+
+/***********************************
+icomoon Sizing & Color
+***********************************/
+// General
+.icomoon {
+	font-size: 1.2rem;
+	color: $main-md;
+}
+
+// Specific to Tool icons on Project pages
+.tools {
+	font-size: 2.5rem;
+	color: $main-dk;
+	margin-right: .5rem;
+}
+
+// Specific to Resume Header
+.res-head {
+	color: $main-dk;
+	margin-right: 1rem;
+}
+
+// Specific to Resume Body
+.res-body {
+	color: $accent-dk;
+	margin-right: 1rem;
+}
+
+// Specific to Resume Body-Employment
+.res-body-work {
+	color: $main-dk;
+}
+
+
+/***********************************
+Link Styles
+***********************************/
+// General links in text
+a {
+	color: $main-md;
+	font-family: $roboto-med;
+}
+
+// Footer links
+.footer div div div a {
+	color:$text-lt;
+}
+
+// Prev/Next Links on Project Pages
+.link-box div a {
+	color: $main-dk;
+	font-size: 1.5rem;
+}
+
+
+/***********************************
+Image Styles
+***********************************/
+// Multiple logo images on project pages
+.multi-logo {
+	padding-right: 3rem;
+}
+
+// Index image of me
+.my-photo {
+	float: right;
+	align: bottom;
+}
+
+
+/***********************************
+Paragraph & Header Styles
+***********************************/
+p {
+	font-family: $roboto-reg;
+	font-size: 1.5rem;
+	line-height: $ratio;
+}
+
+h1 {
+	font-family: $roboto-reg;
+	font-size: 4rem;
+		@media #{$tablet-plus} {
+			font-size: 5rem;
+		}
+}
+
+h2 {
+	font-family: $overlock;
+	font-size: 3rem;
+	color: $accent-md;
+		@media #{$tablet-plus} {
+			font-size: 3.7rem;
+		}
+}
+
+h3 {
+	font-family: $overlock;
+	font-size: 2.5rem;
+	color: $accent-dk;
+		@media #{$tablet-plus} {
+			font-size: 3rem;
+		}
+}
+
+h4 {
+	font-family: $overlock;
+	font-size: 2.2rem;
+	color: $accent-dk;
+	@media #{$tablet-plus} {
+			font-size: 2.4rem;
+		}
+}
+
+h5 {
+	font-family: $overlock;
+	font-size: 2rem;
+	color: $main-lt;
+		@media #{$tablet-plus} {
+			font-size: 2.2rem;
+		}
+}
+
+// "Kelly Pavao" in > KP|GD
+.me {
+	font-family: $roboto-med;
+	font-size: 1.8rem;
+	color: $text-lt;
+}
+
+// "Kelly Pavao" on main page
+.me-again {
+	font-family: $yellowtail;
+	font-size: 5rem;
+		@media #{$tablet-plus} {
+			font-size: 6rem;
+		}
+}
+
+
+/***********************************
+Nav Bar
+***********************************/
+// Nav div
+.header-nav {
+	padding-top: 2*$ratio+rem;
+	padding-right: 0rem;
+	font-family: $roboto-med;
+	font-size: 1.8rem;
+}
+
+// Makes Nav div bg extend
+.nav-bg {
+	background-color: $main-dk;
+	padding: 0rem;
+}
+
+	/***********************************
+	Navitagion
+	***********************************/
+	// Tabs
+	.navbar {
+		margin-top: 0rem;
+		margin-bottom: -1px;
+		margin-right: 0rem;
+		margin-left: 0rem;
+		padding: 0rem;
+	}
+
+	// Inactive Nav Buttons
+	.navbar-nav>li>a {
+		border: 0rem;
+		color: $main-lt;
+	}
+
+	// Rollover Inactive Nav Buttons
+	.navbar-nav>li>a:hover,
+	.navbar-nav>li>a:focus {
+		background-color: $accent-md;
+		color: $main-dk;
+	}
+
+	// Active Nav Button
+	.navbar-nav>li.active>a,
+	.navbar-nav>li.active>a:hover,
+	.navbar-nav>li.active>a:focus {
+		border: 0rem;
+		background-color: $main-md;
+		color: $text-lt;
+		cursor: default;
+	}
+
+	// Active Nav Button on project pages, specifically
+	.navbar-nav>li.project-active>a {
+		border: 0rem;
+		background-color: $main-md;
+		color: $text-lt;
+		cursor: pointer;
+	}
+
+	.navbar-nav>li.project-active>a:hover,
+	.navbar-nav>li.project-active>a:focus {
+		border: 0rem;
+		background-color: $accent-md;
+		color: $text-lt;
+		cursor: pointer;
+	}
+
+	/* Part that says: Kelly Pavao | Designer */
+	.navbar-brand {
+		color: $main-lt;
+		padding-top: 1.25rem;
+		padding-bottom: 0rem;
+		padding-left: 0rem;
+		padding-right: 0rem;
+	}
+
+		/***********************************
+		Hamburger
+		***********************************/
+		// Box
+		button.navbar-toggle {
+			background-color: $main-md;
+		}
+
+		// Bars
+		.icon-bar {
+			background-color: $main-lt;
+		}
+
+
+/***********************************
+Header
+***********************************/
+// Makes Head div bg extend
+.header-bg {
+	background-color: $main-md;
+	padding: 0rem;
+}
+
+// Content Header div
+.header {
+	background-color: $main-md;
+	color: $text-lt;
+	// padding-bottom: 2*$ratio+rem;
+	// margin-bottom: 1.5*$ratio+rem;
+}
+
+// Specific to the header bar text
+.header-body {
+	font-family: $roboto-lt;
+	font-size: 1.8rem;
+	line-height: $ratio;
+	padding-bottom: 2*$ratio+rem;
+	margin-bottom: 1.5*$ratio+rem;
+}
+
+// Specific to the header bar text on the resume page
+.header-body-resume {
+	font-family: $roboto-lt;
+	font-size: 1.8rem;
+	line-height: $ratio;
+}
+
+// Specific to the header on project pages
+.header-project {
+	padding-bottom: 0rem;
+}
+
+// Bolded sentence highlight
+.txt-hlgt {
+	font-family: $roboto-med;
+}
+
+
+/***********************************
+Main Content
+***********************************/
+.content-main {
+		margin-top: 1.5*$ratio+rem;
+		margin-bottom: 6*$ratio+rem;
+	}
+
+// div containing dc svg
+.main-dc {
+	background-image: url('../images/CityElements-sm.svg');
+		@media #{$tablet-plus} {
+				background-image: url('../images/CityElements.svg');				
+			}
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	padding: 0rem;
+}
+
+	/***********************************
+	Callouts
+	***********************************/
+	.callout-body {
+		margin-bottom: 2*$ratio+rem;
+	}
+
+	/***********************************
+	Works
+	***********************************/
+	.work-col {
+		padding-left: 0rem;
+		padding-right: 0rem;
+		margin-bottom: $ratio+rem;
+		position: relative;
+			@media #{$tablet-plus} {
+				padding-right: 1.5rem;				
+			}
+	}
+
+	// Scales images and keeps gutters
+	.scale-image {
+		display: block;
+		width: auto;
+		max-width: 100%;
+	}
+
+
+		/***********************************
+		Works Logo Hover Overlay
+		***********************************/
+		a .work-overlay {
+			opacity: 0
+		}
+		a:hover .work-overlay {
+			opacity: 1;
+		}
+
+		.work-img-overlay {
+			position: relative;
+		}
+
+		a .work-overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			max-width: 30rem;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(250,250,250,.75); /*Dark Blue*/
+			transition: opacity 0.5s;
+		}
+
+	/***********************************
+	Projects
+	***********************************/
+	// Links (prev/next) div
+	.link-box {
+		margin-bottom: 2*$ratio+rem;
+	}
+
+	// Align Next link to right side
+	.work-link-next {
+		text-align: right;
+	}
+
+	// Fix spacing for top H3 headers on project pages
+	.project-top-heading {
+		margin-top: 1rem;
+	}
+
+		/***********************************
+		Carousel
+		***********************************/
+		.carousel {
+			background-image: url('../images/carousel-images/wood-sm.jpg');
+				@media #{$tablet-plus} {
+				background-image: url('../images/carousel-images/wood.jpg');				
+				}
+		}
+
+		/***********************************
+		Accordian
+		***********************************/
+		// Accordian Question P Style
+		.question {
+			margin: 0rem;
+			font-family: $roboto-med;
+			color: $text-dk;
+			display: inline-block;
+			margin-right: 2.5rem;
+		}
+		// Accordian Answer P Style for not last paragraphs
+		.answer-pre {
+			margin-top: 0rem;
+			margin-bottom: 1rem;
+			font-family: $roboto-lt;
+		}
+		// Accordian Answer P Style for last or 1 paragraph
+		.answer {
+			margin: 0rem;
+			font-family: $roboto-lt;
+		}
+
+		// Remove borders from panel outline
+		.panel {
+			webkit-box-shadow: none;
+			box-shadow: none;
+		}
+
+		// Accordian Question Link (A style)
+		.panel-default>a {
+			text-decoration: none;
+		}
+		// Accordian Question Link - hover
+		.question-link:hover{
+			color: $text-lt;
+		}
+
+		// Q&A Panel entire container
+		.panel-default {
+			border: 0px;
+		}
+
+		// Question div
+		.panel-heading {
+			padding-top: .5*$ratio+rem;
+			padding-bottom: .5*$ratio+rem;
+			padding-left: .75*$ratio+rem;
+			padding-right: .75*$ratio+rem;
+			background-color: $main-ltplus;
+			background-image: url('../images/arrow.png');
+			background-repeat: no-repeat;
+			background-position: right;
+		}
+
+
+		// Answer div
+		.panel-body {
+			padding-top: .75*$ratio+rem;
+			padding-bottom: .5*$ratio+rem;
+			padding-left: .75*$ratio+rem;
+			padding-right: .75*$ratio+rem;
+			background-color: $main-lt;
+			border-left: 1px solid $main-ltplus;
+			border-right: 1px solid $main-ltplus;
+			border-bottom: 1px solid $main-ltplus;
+		}
+
+	/***********************************
+	Resume
+	***********************************/
+	// div for view PDF button
+	.resume-pdf-link {
+		float: right;
+		background-color: $main-dk;
+		padding-top: .5*$ratio+rem;
+		padding-bottom: .5*$ratio+rem;
+		padding-left: .75*$ratio+rem;
+		padding-right: .75*$ratio+rem;
+		border-radius: .4rem;
+			@media #{$tablet-plus} {
+				margin-top: 3*$ratio+rem;
+			}
+	}
+
+	// "View as PDF" Text in button
+	.pdf-text {
+		color: $main-lt;
+		font-family: $roboto-med;
+	}
+
+	// Changing margins for header div containing com-info
+	.row-res-head {
+		margin-top: 2*$ratio+rem;
+		margin-bottom: -2*$ratio+rem;
+	}
+
+	// Divs containing communication info in header
+	.com-info {
+		display: inline-block;
+		margin-right: 6*$ratio+rem;
+	}
+
+	// Adds space to bottom of resume page col
+	.col-res {
+		margin-bottom: 2*$ratio+rem;
+	}
+
+	// Styling p's for split col fixes spacing (ie tools)
+	.p-res-tools {
+		margin-bottom: 0rem;
+	}
+
+	// Removes mar/pad for col's inside of things
+	.inner-col {
+		padding-left: 0rem;
+	}
+
+	// Resume spacing fix?
+	.resume-spacing {
+		margin-bottom: 3*$ratio+rem;
+	}
+
+	// Job Lists Custom Bullet (banner) & Style
+	.job-list {
+		list-style-image: url('../images/banner.png');
+		padding-left: 2rem;
+		font-family: $roboto-reg;
+		font-size: 1.5rem;
+		line-height: $ratio;
+	}
+
+	// Extra spacing at bottom for phones (all products & resume)
+	.extra-space {
+		padding-bottom: 4*$ratio+rem;
+	}
+
+
+/***********************************
+Footer
+***********************************/
+// Makes footer bg extend
+.footer-bg {
+	background-color: $main-dk;
+	padding: 0rem;
+}
+
+// Footer div
+.footer {
+	margin-top: .25*$ratio+rem;
+	padding-bottom: 1.5*$ratio+rem;
+	color: $text-lt;
+}
+
+// Adds space to bottom of rows
+.cnt-row {
+	margin-bottom: .5*$ratio+rem;
+}
+
+// Contact info styles
+.contact {
+	color: $accent-md;
+}
+
+// Copyright line style
+.copyright {
+	font-family: $roboto-reg;
+	font-size: 1.1rem;
+	margin-top: 1.5*$ratio+rem;
+}

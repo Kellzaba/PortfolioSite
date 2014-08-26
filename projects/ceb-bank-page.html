@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- ***********************************
+	START HEAD TAG
+	************************************ -->
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <!-- ***********************************
+		Ensures proper rendering and touch zooming on phones
+		************************************ -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- ***********************************
+		Disables zooming on phones
+		************************************ -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+		
+		<!-- ***********************************
+		Google Fonts
+		************************************ -->
+		<link href='http://fonts.googleapis.com/css?family=Overlock:700|Yellowtail|Roboto:400,300,500' rel='stylesheet' type='text/css'>
+
+		<!-- ***********************************
+		Page Title
+		************************************ -->
+		<title>Kelly Pavao | Projects - CEB Bank Page</title>
+
+		<!-- ***********************************
+		Favicon! :)
+		************************************ -->
+
+		<!-- ***********************************
+		Live Reload
+		************************************ -->
+			<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+		<!-- End LiveReload -->
+
+		<!-- ***********************************
+		Bootstrap
+		************************************ -->
+		<!-- CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	    <!-- End Bootstrap -->
+
+		<!-- ***********************************
+		My CSS Sheet
+		************************************ -->
+		    <link href="../css/main.css" rel="stylesheet" type="text/css" />
+		<!-- ***********************************
+		My Icon Set (icomoon)
+		************************************ -->
+			<link href="../css/icomoon.css" rel="stylesheet" type="text/css" />
+	
+	<!-- ***********************************
+	END HEAD TAG
+	************************************ -->
+	</head>
+
+
+
+	<!-- ***********************************
+	START BODY TAG
+	************************************ -->
+	<body>
+
+
+		<!-- ***********************************
+		Navigation Bar Containers
+		************************************ -->
+		<div class="container-fluid nav-bg">
+			<div class="row header-nav bounding-box">
+				<div class="col-md-12">
+				
+					<!-- ***********************************
+					Navigation Bar
+					************************************ -->
+					<nav class="navbar" role="navigation">
+						<div class="container-fluid">
+							
+							<!-- ***********************************
+							Navigation View on Phones (Brand & Hamburger)
+							************************************ -->
+							<div class="navbar-header">
+
+								<!-- ***********************************
+								Hamburger Button
+								************************************ -->
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar-collapse">
+							        <span class="sr-only">Toggle navigation</span>
+							        <span class="icon-bar"></span>
+							        <span class="icon-bar"></span>
+							        <span class="icon-bar"></span>
+							    </button>
+
+							    <!-- ***********************************
+								"Brand": KP | Dsgnr
+								************************************ -->
+							    <div class="navbar-brand">
+							    	<span class="me">Kelly Pavao</span> | Designer
+							    </div> <!-- navbar-brand -->
+							</div> <!-- navbar-header -->
+
+						    <!-- ***********************************
+							Links (for Toggling)
+							************************************ -->
+						    <div class="collapse navbar-collapse" id="main-navbar-collapse">
+						    	<ul class="nav navbar-nav navbar-right">
+				    		        <li><a href="../index.html">Home</a></li>
+									<li class="project-active"><a href="../work.html">Work</a></li>
+									<li><a href="../resume.html">Resume</a></li>
+								</ul>
+							</div> <!-- collapse navbar-collapse -->
+
+						</div> <!-- container-fluid -->
+					</nav> <!-- navbar -->
+
+				</div> <!-- col-md-12 -->
+			</div> <!-- row header-nav bounding-box col-md-12 (navigation) -->
+		</div> <!-- row container-fluid nav-bg (navigation) -->
+
+
+		<!-- ***********************************
+		Header Bar Containers
+		************************************ -->
+		<div class="container-fluid header-bg">
+			<div class="row header-project bounding-box">
+				<div class="col-md-12">
+					
+					<!-- ***********************************
+					Carousel
+					************************************ -->
+					<div id="carousel-wigc" class="carousel slide" data-ride="carousel">
+				    	<!-- Indicators -->
+<!-- 						<ol class="carousel-indicators">
+							<li data-target="#carousel-wigc" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-wigc" data-slide-to="1"></li>
+							<li data-target="#carousel-wigc" data-slide-to="2"></li>
+						</ol> -->
+
+						<!-- Wrapper for slides -->
+					    <div class="carousel-inner">
+					    	
+					    	<!-- Slide -->
+						    <div class="item active">
+							    <img src="../images/carousel-images/carousel_ceb-page1.png">
+							    <!-- <div class="carousel-caption">
+							    ...
+						    	</div> -->
+						    </div> <!-- Slide -->
+						    
+						    <!-- Slide -->
+						    <div class="item">
+							    <img src="../images/carousel-images/carousel_ceb-bank1.png">
+							    <!-- <div class="carousel-caption">
+							        ...
+							    </div> -->
+					    	</div> <!-- Slide -->
+
+					    	<!-- Slide -->
+					    	<div class="item">
+							    <img src="../images/carousel-images/carousel_ceb-bank2.png">
+							    <!-- <div class="carousel-caption">
+							        ...
+							    </div> -->
+					    	</div> <!-- Slide -->
+
+					    	<!-- Slide -->
+					    	<div class="item">
+							    <img src="../images/carousel-images/carousel_ceb-bank3.png">
+							    <!-- <div class="carousel-caption">
+							        ...
+							    </div> -->
+					    	</div> <!-- Slide -->
+
+					    	<!-- Slide -->
+					    	<div class="item">
+							    <img src="../images/carousel-images/carousel_ceb-bank4.png">
+							    <!-- <div class="carousel-caption">
+							        ...
+							    </div> -->
+					    	</div> <!-- Slide -->
+
+					    </div> <!-- slides > carousel inner -->
+
+					    <!-- Controls -->
+					    <!-- Left Button -->
+						<a class="left carousel-control" href="#carousel-wigc" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+						</a>
+						<!-- Right Button -->
+						<a class="right carousel-control" href="#carousel-wigc" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+
+					</div> <!-- carousel -->
+				
+				</div> <!-- col-md-12 -->
+			</div> <!-- row header bounding-box (header) -->	
+		</div> <!-- row container-fluid header-bg (header) -->
+
+
+		<!-- ***********************************
+		Main Content Containers
+		************************************ -->
+		<div class="container-fluid main-dc">
+			<div class="row content-main bounding-box">
+				
+				<!-- ***********************************
+				Content
+				************************************ -->
+				<div class="row bounding-box">
+
+					<!-- ***********************************
+					Links Content
+					************************************ -->
+					<div class="link-box">
+
+						<!-- Previous Link -->
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 work-link-prev">
+							<a href="./ceb-icon-library.html"><span class="glyphicon glyphicon-new-window work-link"></span> Previous Project</a>
+						</div> <!-- work-link-prev -->
+
+						<!-- Next Link -->
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 work-link-next">
+							<a href="./aaas-science-magazine.html"><span class="glyphicon glyphicon-new-window work-link"></span> Next Project</a>
+						</div> <!-- work-link-next -->
+
+					</div>
+
+									
+					<!-- ***********************************
+					Left Content
+					************************************ -->
+					<div class="col-sm-8 col-md-8 col-lg-8">
+
+						<!-- ***********************************
+						Problem
+						************************************ -->
+						<h3 class="project-top-heading"><span class="icon-problem"></span> Design Dilemma</h3>
+						
+						<p>An unusual request came in at Corporate Executive Board for a custom page that broke the usual “template” for binder pages.</p>
+
+
+						<!-- ***********************************
+						Process
+						************************************ -->
+						<h3><span class="icon-cogs"></span> Reasoning &amp; Process</h3>
+
+						<p>Even though the layout was clearly going to break the standard mold, I wanted to make sure that the page still looked like it belonged in the binder, so I tweaked some existing building graphics and created some new ones to match in a coordinating style. There was a lot of text and images that needed to fit into this defined space, so my first idea was to place the text around the outside of the content area and have the graphic entirely on the inside of that. I highlighted buildings that the callouts were pointing to in blue to make them stand out from the busyness of the rest of the graphic. There is a key that helps to make sense of the different line types used to give additional information.</p>
+
+						<p>After feedback and deciding that the whole page should be done in grayscale, I recolored the graphics to light and dark gray to help distinguish which buildings were being called out. We also decided to make the graphic take up the whole content area, and layer the text right over the graphics. The line-type key was still used to provide more information graphically.</p>
+
+						<p>After more back-and-forth, the finalized design stayed black and white, though all shades were lightened so they page didn’t feel heavy. The image still took up the whole content area with text layered over, but we grouped the text back into one box for each callout, with specific pieces called out further by the use of our line-type key.</p>
+
+
+						<!-- ***********************************
+						Solution
+						************************************ -->
+						<h3><span class="icon-trophy"></span> Solution</h3>
+						
+						<p>This page got a lot of feedback, and I worked closely with another designer at Corporate Executive Board to get it just right. Her feedback presented me with challenges, but it asked me to learn and grow while I made change after change to bring this page to a successful end point.</p>
+						
+						<!-- ***********************************
+						Accordian >>CHANGE IDS THROUGHOUT BEFORE IMPLEMENTING!!<<
+						************************************ -->
+						<!-- Accordian conatiner -->
+						<div class="panel-group" id="accordian-question">
+							
+							<!-- ***********************************
+							Q & A
+							************************************ -->
+							<!-- Question & Answer container -->
+							<div class="panel panel-default">
+								
+								<!-- Question container -->
+								<a data-toggle="collapse" data-parent="accordian-question" href="#collapse-one">
+									<div class="panel-heading">
+										<p class="question">Client Feedback</p>
+									</div> <!-- (question container) -->
+								</a> <!-- Putting the link outside of the div makes the div clickable -->
+
+								<!-- Answer Container -->
+								<div id="collapse-one" class="panel-collapse collapse">
+									<!-- Answer content -->
+									<div class="panel-body">
+										<p class="answer">“I wanted to take a minute of your time to thank you for your perseverance with page 8 in the Retail Executive Circle deck. If I am right, that is now a page that the 25 executives who run banking are going to photocopy, tack on their walls, and send to their teams. It is the culmination of 18 months of hard thinking that the group has done, it represents the biggest change in how retail banking works since the 1970s and the introduction of the ATM, and it is all captured in 8 by 11 inches. I know it was painful to keep iterating through the changes. But what you have produced is perfect and will be so helpful to members! Thank you!”
+</p>
+									</div> <!-- (answer content) -->
+								</div> <!-- (answer container) -->
+							</div> <!-- (Q&A container) -->
+
+							<!-- ***********************************
+							Q & A
+							************************************ -->
+							<!-- Question & Answer container -->
+							<div class="panel panel-default">
+								
+								<!-- Question container -->
+								<a data-toggle="collapse" data-parent="accordian-question" href="#collapse-two">
+									<div class="panel-heading">
+										<p class="question">Client Feedback</p>
+									</div> <!-- (question container) -->
+								</a> <!-- Putting the link outside of the div makes the div clickable -->
+
+								<!-- Answer Container -->
+								<div id="collapse-two" class="panel-collapse collapse">
+									<!-- Answer content -->
+									<div class="panel-body">
+										<p class="answer-pre">"The meeting actually went spectacularly well. We got a 92% net promoter score. That is only the third or fourth time in CEB history that a meeting with over 10 members (and we had 27) has scored over a 90 and stands as a clear indication that the members were delighted with the meeting. The next time the group is getting together we will be in Toronto and our host has decided to invite the Prime Minister of Canada to join us for dinner. So something is working!</p>
+
+										<p class="answer-pre">There were no challenges that I am aware of that your team could improve on. Cate may have some suggestions. As to successes, I am not sure if you ever had the chance to step back from all the urgent work and look at the binder. But it was a fascinating end product. It probably had the widest variety of content that we have ever had&mdash;member presentations, member artifacts, industry data, poll data, case studies, and insight pages. Your work managed to preserve the essence of the variety of inputs without allowing it to get the feel of scrap book. The end result was this wonderfully eclectic binder that felt like a gathering of all of the best stuff out there right now. At the end of the meeting I walked up to one member who ALWAYS has us ship his binder back for him to ask him if he wanted us to ship it. He literally held it up and looked at it for maybe four or five seconds, then pulled it to his chest and said, 'no, I don’t think I want this out of my sight.' That was a cool moment.</p>
+
+										<p class="answer-pre">I know that as a firm we are trying to standardize to a branded image and that the Executive Circle program asks your team to do a lot of peculiar things instead. But if you had seen the almost affectionate manner in which Tim held his binder I know that you would have smiled, and I hope that you would have felt that all of the weirdness around the process was worth it."</p>
+
+										<p class="answer">[This mentioned binder, containing the “bank page,” was the product of the efforts of multiple people including me.]</p>
+									</div> <!-- (answer content) -->
+								</div> <!-- (answer container) -->
+							</div> <!-- (Q&A container) -->
+
+						</div> <!-- (accordian container) -->
+
+					</div> <!-- Main Content - Overview -->
+
+					<!-- ***********************************
+					Right Content
+							NOTE: put >> class="callout-body" << in last p for spacing
+					************************************ -->
+					<div class="col-sm-4 col-md-4 col-lg-4">
+						<!-- Clients -->
+						<row class="workpage-row">
+							<h4>Client</h4>
+							
+							<img src="../images/logos/logo_ceb.png">
+						</row>
+
+						<!-- Tools -->
+						<row class="workpage-row">
+							<h4>Tools</h4>
+
+							<!-- List of tools via icon -->
+							<span class="top icomoon tools icon-indesign" data-toggle="tooltip" title="Adobe InDesign"></span>
+							<span class="top icomoon tools icon-illustrator" title="Adobe Illustrator"></span>
+							<span class="top icomoon tools icon-excel" title="Microsoft Excel"></span>
+							<span class="top icomoon tools icon-powerpoint" title="Microsoft Powerpoint"></span>
+							<span class="top icomoon tools icon-deltagraph" title="Delta Graph"></span>
+						</row>
+
+						<!-- Services -->
+						<row class="workpage-row">
+							<h4>Services</h4>
+
+							<p class="callout-body extra-space"><span class="icomoon icon-wrench"></span> Graph Creation
+							<br><span class="icomoon icon-wrench"></span> Graphic Design
+							<br><span class="icomoon icon-wrench"></span> Illustration
+							<br><span class="icomoon icon-wrench"></span> Page Layout
+							<br><span class="icomoon icon-wrench"></span> Production Art
+							</p>
+						</row>
+
+					</div> <!-- Right Callout -->
+
+				</div> <!-- row bounding-box -->
+
+
+			</div> <!-- row bounding-box (main content) -->
+		</div> <!-- row container-fluid (main content) -->
+		
+
+		<!-- ***********************************
+		Footer Containers
+		************************************ -->
+		<div class="container-fluid footer-bg">
+			<div class="row footer bounding-box">
+				<div class="col-md-12">
+
+					<!-- ***********************************
+					Footer
+					************************************ -->
+					<h5>Connect with me</h5>
+
+					<div class="row">
+
+						<!-- email -->
+						<div class="cnt-row col-md-4">
+							<span class="contact">EMAIL:</span> EmailKellyPavao@gmail.com
+						</div> <!-- cnt-row (email) -->
+
+						<!-- phone -->
+						<div class="cnt-row col-md-4">
+							<span class="contact">CALL MY CELL:</span> 774.488.6458
+						</div> <!-- cnt-row (phone) -->
+
+						<!-- social media -->
+						<div class="cnt-row col-md-4">
+							<span class="contact">SOCIAL MEDIA:</span> <a target="_blank" href="http://www.linkedin.com/in/kellypavao/"><span class="glyphicon glyphicon-new-window foot-icon"></span> LinkedIn Profile</a>
+						</div> <!-- cnt-row (social media) -->
+
+					</div> <!-- row (contact info) -->
+
+					<!-- copyright -->
+					<div class="copyright">
+						&copy;Kelly Pavao 2014
+					</div> <!-- copyright -->
+
+				</div> <!-- col-md-12 -->
+			</div> <!-- row footer bounding-box (footer) -->
+		</div> <!-- row container-fluid footer-bg (footer) -->
+
+		
+
+		<!-- ***********************************
+		jQuery (necessary for Bootstrap's JavaScript plugins)
+		************************************ -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<!-- ***********************************
+		Bootstrap JavaScript
+		************************************ -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<!-- ***********************************
+		My JavaScript
+		************************************ -->
+		<script src="../js/main.js"></script>
+
+
+	</body>
+	<!-- ***********************************
+	END BODY TAG
+	************************************ -->
+</html>

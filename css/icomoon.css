@@ -1,0 +1,97 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-7n6waj');
+	src:url('../fonts/icomoon.eot?#iefix-7n6waj') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-7n6waj') format('woff'),
+		url('../fonts/icomoon.ttf?-7n6waj') format('truetype'),
+		url('../fonts/icomoon.svg?-7n6waj#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bootstrap:before {
+	content: "\e614";
+}
+.icon-css:before {
+	content: "\e615";
+}
+.icon-html:before {
+	content: "\e616";
+}
+.icon-sass:before {
+	content: "\e617";
+}
+.icon-deltagraph:before {
+	content: "\e600";
+}
+.icon-excel:before {
+	content: "\e601";
+}
+.icon-illustrator:before {
+	content: "\e602";
+}
+.icon-indesign:before {
+	content: "\e603";
+}
+.icon-photoshop:before {
+	content: "\e604";
+}
+.icon-powerpoint:before {
+	content: "\e605";
+}
+.icon-sublime:before {
+	content: "\e606";
+}
+.icon-word:before {
+	content: "\e607";
+}
+.icon-home:before {
+	content: "\e608";
+}
+.icon-office:before {
+	content: "\e609";
+}
+.icon-books:before {
+	content: "\e60a";
+}
+.icon-university:before {
+	content: "\e60b";
+}
+.icon-envelope:before {
+	content: "\e60c";
+}
+.icon-screen:before {
+	content: "\e60d";
+}
+.icon-mobile:before {
+	content: "\e60e";
+}
+.icon-wrench:before {
+	content: "\e60f";
+}
+.icon-cogs:before {
+	content: "\e610";
+}
+.icon-trophy:before {
+	content: "\e611";
+}
+.icon-bookmarks:before {
+	content: "\e612";
+}
+.icon-problem:before {
+	content: "\e613";
+}
