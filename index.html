@@ -9,12 +9,7 @@
 	    <!-- ***********************************
 		Ensures proper rendering and touch zooming on phones
 		************************************ -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- ***********************************
-		Disables zooming on phones
-		************************************ -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" name="viewport">
 		
 		<!-- ***********************************
 		Google Fonts
@@ -22,18 +17,21 @@
 		<link href='http://fonts.googleapis.com/css?family=Overlock:700|Yellowtail|Roboto:400,300,500' rel='stylesheet' type='text/css'>
 
 		<!-- ***********************************
-		Page Title
+		Page Title & Description
 		************************************ -->
 		<title>Kelly Pavao | Portfolio</title>
+		<meta name="description" content="&quote;Let me help you succeed. I have a passion for helping other people succeed at what they do.&quote; Take a look around the portfolio of designer Kelly Pavao and see what she can do for you.">
+		<meta name="keywords" content="Kelly Pavao,graphic designer,portfolio,design">
 
 		<!-- ***********************************
 		Favicon! :)
 		************************************ -->
+		<link href="images/fav-icon.ico" rel="icon" type="image/x-icon" />
 
 		<!-- ***********************************
 		Live Reload
 		************************************ -->
-			<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+		<!--	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>  -->
 		<!-- End LiveReload -->
 
 		<!-- ***********************************
@@ -47,6 +45,11 @@
 		My CSS Sheet
 		************************************ -->
 		    <link href="css/main.css" rel="stylesheet" type="text/css" />
+
+		<!-- ***********************************
+		My Icon Set (icomoon)
+		************************************ -->
+			<link href="css/icomoon.css" rel="stylesheet" type="text/css" />
 	
 	<!-- ***********************************
 	END HEAD TAG
@@ -149,14 +152,14 @@
 									
 					<!-- Left Callout -->
 					<div class="col-sm-6 col-md-6 col-lg-6">
-						<h4>Organize All the Things</h4>
+						<h4><span class="icon-bookmarks"></span> Organize All the Things</h4>
 						
 						<p class="callout-body">One of my superpowers is being able to take disorganized piles of things and sort through and group them into neat, efficient collections. I'm both a big-picture person and a detail-oriented one: let me lay out all the elements, and then I can knowingly dive into the nitty-gritty.</p>
 					</div> <!-- Left callout -->
 
 					<!-- Right Callout -->
 					<div class="col-sm-6 col-md-6 col-lg-6">
-						<h4>Imagining Creative Solutions</h4>
+						<h4><span class="icon-cogs"></span> Imagining Creative Solutions</h4>
 						
 						<p class="callout-body">I love puzzles. Give me a set of rules that all need to be followed, and I relish the challenge of being able to satisfy every requirement. I believe that restrictions promote creativity; learn to think outside of the box to fit everything into the box.</p>
 					</div> <!-- Right Callout -->
@@ -174,7 +177,7 @@
 
 							<!-- Image 1 -->
 							<div class="work-col col-md-4 col-sm-4">
-								<a href="./projects/wigc.html">
+								<a href="./work/wigc.html">
 									<div class="work-img-overlay">
 										<img src="./images/work-images/work_WiGC.png" class="scale-image">
 										<img src="./images/overlays/overlay_wiley-rein.png" class="work-overlay">
@@ -185,7 +188,7 @@
 
 							<!-- Image 2 -->
 							<div class="work-col col-md-4 col-sm-4">
-								<a href="./projects/wr-newsletters.html">
+								<a href="./work/wr-newsletters.html">
 									<div class="work-img-overlay">
 										<img src="./images/work-images/work_wr-newsletters.jpg" class="scale-image">
 										<img src="./images/overlays/overlay_wiley-rein.png" class="work-overlay">
@@ -196,7 +199,7 @@
 
 							<!-- Image 3 -->
 							<div class="work-col col-md-4 col-sm-4">
-								<a href="./projects/hc-salon-connections.html">
+								<a href="./work/hc-salon-connections.html">
 									<div class="work-img-overlay">
 										<img src="./images/work-images/work_hc-sc.jpg" class="scale-image">
 										<img src="./images/overlays/overlay_hair-cuttery.png" class="work-overlay">
